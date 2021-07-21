@@ -1,15 +1,21 @@
-\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=169,slidestop,compress]{beamer}
 \usepackage{ctex}
+\usepackage{xeCJK}
+\usepackage{fontspec}
+\usepackage{latexsym,bm}
 \usepackage{graphicx}
-\usepackage{booktabs}
-\usetheme{Antibes}
-\usecolortheme{dolphin}
-
+\setCJKmainfont{微软雅黑 Light}
 \setsansfont{Consolas}
+\usetheme{Antibes}
+\usecolortheme{lily}
+\usecolortheme[RGB={35,122,177}]{structure}
 
 \title{这是标题}
 \author{Spaceless}
+%\institute{这里是institute}
+
 \begin{document}
 	\include{content/title}
 	\include{content/section}
+	\include{content/thankyou}
 \end{document}
