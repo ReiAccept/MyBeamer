@@ -1,18 +1,15 @@
 \documentclass[aspectratio=169,slidestop,compress]{beamer}
-\usepackage[scheme=plain]{ctex}
-\usepackage{xeCJK}
+\usepackage[fontset=windows,scheme=plain]{ctex}
 \usepackage{fontspec}
-\usepackage{latexsym,bm}
+\usepackage{latexsym,bm,amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
-\usepackage{amsmath,amsfonts,amssymb,bm}
 \usepackage{multicol}
 \usepackage{unicode-math}
-\usepackage{minted} %在frame中用minted的时候记得加上fragile参数
+\usepackage{minted} %在frame中用minted的时候记得加上fragile参数,编译选项需要-shell-escape
 \usepackage{url}
-\setCJKmainfont{微软雅黑 Light}
 \setsansfont{Consolas}
 \setmonofont{Source Code Pro}
-\setmathfont{Times New Roman}
+%\setmathfont{Times New Roman}
 \usetheme{Antibes}
 \usecolortheme{lily}
 \usecolortheme[RGB={35,122,177}]{structure}
